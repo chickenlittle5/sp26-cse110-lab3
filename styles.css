@@ -248,9 +248,11 @@ footer {
   text-align: center;
 }
 
-.intro-section p {
-  border-left: 3px solid #999;
-  padding-left: 0.5rem;
+.intro-section {
+  & p {
+    border-left: 3px solid #999;
+    padding-left: 0.5rem;
+  }
 }
 
 @media (max-width: 700px) {
