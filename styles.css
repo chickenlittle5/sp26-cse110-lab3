@@ -17,10 +17,11 @@ footer {
 }
 
 header {
-  margin-bottom: 20px;
-  padding: 15px;
+  margin-bottom: 24px;
+  padding: 18px;
   background-color: white;
-  border: 1px solid #ccc;
+  border: 1px solid #bbb;
+  border-radius: 6px;
 }
 
 h1,
@@ -46,10 +47,14 @@ main {
 }
 
 section {
-  margin-bottom: 15px;
-  padding: 15px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 18px;
+  margin-left: 0;
+  padding: 16px 18px;
   background-color: white;
-  border: 1px solid #ccc;
+  border: 1px solid #c7c7c7;
+  border-radius: 6px;
 }
 
 hr {
@@ -66,10 +71,18 @@ ol {
 img,
 iframe {
   max-width: 100%;
+  margin-top: 10px;
+  border: 1px solid #cfcfcf;
 }
 
 fieldset {
-  padding: 15px;
+  padding-top: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  padding-left: 14px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  margin: 0;
 }
 
 input,
@@ -97,6 +110,14 @@ button {
   background-color: #e0e0e0;
   color: #222;
   cursor: pointer;
+}
+
+#form {
+  padding-bottom: 20px;
+}
+
+#media p {
+  margin-bottom: 8px;
 }
 
 footer {
