@@ -15,9 +15,10 @@
 
 body {
   margin: 20px;
+  width: 95%;
   background-color: #f5f5f5;
   color: var(--main-text, #222);
-  font-family: Arial, sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
 }
 
 header,
@@ -213,6 +214,12 @@ button:active {
 
 .intro-section {
   background-color: var(--soft-color, #f8f8ff);
+}
+
+section.intro-section {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #c7c7c7;
 }
 
 .content-grid section {
