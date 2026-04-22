@@ -24,6 +24,13 @@ header {
   border-radius: 6px;
 }
 
+.header-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
 h1,
 h2,
 h3 {
@@ -44,6 +51,12 @@ nav a {
 
 main {
   margin-bottom: 20px;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
 }
 
 section {
@@ -123,4 +136,18 @@ button {
 footer {
   padding-bottom: 10px;
   text-align: center;
+}
+
+@media (max-width: 700px) {
+  .header-layout {
+    flex-direction: column;
+  }
+
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    margin: 10px;
+  }
 }
