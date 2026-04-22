@@ -7,13 +7,18 @@
     <title>Team 6 Meeting Minutes</title>
     <link rel="icon" href="screenshots/example.png" type="image/png">
     <link rel="stylesheet" href="styles.css">
+    <style>
+      .page-tag {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
     <header>
       <div class="header-layout">
         <div>
           <h1>Team 6 Meeting Minutes</h1>
-          <p>Assignment: <span>Tech Warmup II</span></p>
+          <p>Assignment: <span class="page-tag">Tech Warmup II</span></p>
         </div>
         <nav>
           <a href="#attendance">Attendance</a><br>
@@ -29,10 +34,10 @@
     </header>
 
     <main>
-      <section>
+      <section class="intro-section">
         <h2>Tech Warmup II Planning</h2>
         <h3>April 19th, 2026</h3>
-        <p><strong>Note:</strong> The team met to review project description, discuss responsibilities, and outline next steps for Warmup II.</p>
+        <p style="background-color: rgba(230, 230, 250, 0.6);"><strong>Note:</strong> The team met to review project description, discuss responsibilities, and outline next steps for Warmup II.</p>
       </section>
 
       <hr>
@@ -81,6 +86,7 @@
 
       <section id="media">
         <h2>Diagrams and Recordings</h2>
+        <p class="media-label">Media items:</p>
         <img src="screenshots/example.png" alt="Example pic" width="300">
         <p>
           Reference link:
@@ -103,6 +109,7 @@
           <summary>Open quick summary</summary>
           <p>The team agreed to focus on clear structure and required lab features before making additional design improvements.</p>
         </details>
+        <p class="hidden-note">This note is hidden to show the display none property.</p>
       </section>
 
       <section id="form">
