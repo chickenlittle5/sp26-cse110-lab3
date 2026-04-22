@@ -97,11 +97,11 @@
         <h2>Feedback Form</h2>
         <form>
           <fieldset>
-            <legend>Meeting Feedback</legend>
+            <legend>Project Meeting Feedback</legend>
 
             <p>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name" list="names">
+              <label for="name">Your Name:</label>
+              <input type="text" id="name" name="name" list="names" placeholder="Enter your name">
             </p>
 
             <datalist id="names">
@@ -110,36 +110,36 @@
             </datalist>
 
             <p>
-              <label for="date">Next meeting date:</label>
+              <label for="date">Preferred next meeting date:</label>
               <input type="date" id="date" name="date">
             </p>
 
             <p>
               <input type="checkbox" id="remote" name="remote">
-              <label for="remote">Attend remotely</label>
+              <label for="remote">I plan to attend remotely</label>
             </p>
 
             <p>
               <input type="radio" id="yes" name="vote" value="yes">
-              <label for="yes">Approve plan</label>
+              <label for="yes">Approve today's meeting plan</label>
               <input type="radio" id="no" name="vote" value="no">
-              <label for="no">Need changes</label>
+              <label for="no">Request revisions before the next meeting</label>
             </p>
 
             <p>
-              <label for="topic">Topic:</label>
+              <label for="topic">Discussion Topic:</label>
               <select id="topic" name="topic">
-                <option value="planning">Planning</option>
-                <option value="design">Design</option>
+                <option value="planning">Project planning</option>
+                <option value="design">Page design</option>
               </select>
             </p>
 
             <p>
-              <label for="notes">Notes:</label><br>
-              <textarea id="notes" name="notes" rows="4" cols="30"></textarea>
+              <label for="notes">Additional comments:</label><br>
+              <textarea id="notes" name="notes" rows="4" cols="30" placeholder="Share feedback, concerns, or ideas for the next meeting"></textarea>
             </p>
 
-            <button type="submit">Submit</button>
+            <button type="submit">Send feedback</button>
           </fieldset>
         </form>
       </section>
